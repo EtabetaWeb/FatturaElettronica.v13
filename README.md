@@ -1,11 +1,10 @@
 ![FatturaElettronica](https://etabetaweb.files.wordpress.com/2018/11/fattura-elettronica.jpg)
 
-# FatturaElettronica
-Il progetto nasce dall’esigenza di creare una classe che permetta di rappresentare tutti i nodi previsti nel formato XML  (eXtensible Markup Language) della Fattura Elettronica basato sulla versione 1.3 delle specifiche tecniche dell’Agenzia delle Entrate.
-Sviluppato in Visual Basic .Net, utilizza il .Net Framework 4.6.
+# Fattura Elettronica
+Il progetto nasce dall’esigenza di creare una classe che permetta di rappresentare tutti i nodi previsti nel formato XML  (eXtensible Markup Language) della Fattura Elettronica basato sulla versione 1.3 delle specifiche tecniche dell’Agenzia delle Entrate. Sviluppato in Visual Basic .Net, utilizza il .Net Framework 4.6.
 
-# Novità
-E' disponibile la guida per l'implementazione della classe opensource per la generazione della Fattura Elettronica. In esclusiva sullo store Amazon Kindle Book in formato digitale. La guida spiega come procedere all'implementazione della classe per la realizzazione di applicazioni contabili che prevedano l'emissione della fattura elettronica
+# Guida per l'utilizzo
+E' disponibile la guida per l'implementazione della classe open source per la generazione della Fattura Elettronica. In esclusiva sullo store Amazon Kindle Book in formato digitale. La guida spiega come procedere all'implementazione della classe per la realizzazione di applicazioni contabili che prevedano l'emissione della fattura elettronica
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2018/11/copertina-guida-fatturael.jpg) 
 
@@ -69,9 +68,6 @@ L'assembly version è costituito di 4 parti ({Major Version}.{Minor Version}.{Bu
 * Build Number: incrementata automaticamente
 * Revision: incrementata automaticamente
 
-# Siti di riferimento
-* [Portale Agenzia delle Entrate: Fattura elettronica e corrispettivi telematici](https://www.agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica)https://github.com/EtabetaWeb/FatturaElettronica.v13/tree/master/FatturaEL.v13/bin/Release
-
-# Ringraziamenti
-Questo progetto nasce dal lavoro di Davide De Rubeis [C# - Come creare la Fattura Elettronica per la Pubblica Amministrazione (FatturaPA)](http://blogs.dotnethell.it/imaginsystems/C-Come-creare-la-Fattura-Elettronica-per-la-Pubblica-Amministrazione-FatturaPA__19559.aspx) basato sullo schema della versione 1.1.
+# Documentazione di riferimento
+* [Specifiche tecniche dell'Agenzia delle Entrate](https://github.com/EtabetaWeb/FatturaElettronica.v13/tree/master/Documentazione/Specifiche%20Tecniche)
 
