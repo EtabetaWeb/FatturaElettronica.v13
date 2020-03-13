@@ -38,7 +38,7 @@ Tra gli argomenti trattati:
 * Codice di esempio
 
 # Download della libreria compilata
-Dal percorso "/FatturaEL.v13/bin/Release/" è possibile scaricare il file di libreria "FatturaEL.v13.dll" basato sulla versione 1.3 delle specifiche tecniche dell’Agenzia delle Entrate e compilata per l'integrazione in altre applicazioni.
+Dal percorso "[/FatturaEL.v13/bin/Release/](https://github.com/EtabetaWeb/FatturaElettronica.v13/tree/master/FatturaEL.v13/bin/Release)" è possibile scaricare il file di libreria "FatturaEL.v13.dll" basato sulla versione 1.3 delle specifiche tecniche dell’Agenzia delle Entrate e compilata per l'integrazione in altre applicazioni.
 
 # Note al codice di esempio per generare la Fattura Elettronica
 Il form è un esempio per utilizzare, tramite code-behind, i metodi e le proprietà della classe. Il codice non è esaustivo, in quanto non utilizza tutti i metodi della classe, e vi rimando alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti.
@@ -70,7 +70,7 @@ L'assembly version è costituito di 4 parti ({Major Version}.{Minor Version}.{Bu
 * Revision: incrementata automaticamente
 
 # Siti di riferimento
-* [Portale Agenzia delle Entrate: Fattura elettronica e corrispettivi telematici](https://www.agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica)
+* [Portale Agenzia delle Entrate: Fattura elettronica e corrispettivi telematici](https://www.agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica)https://github.com/EtabetaWeb/FatturaElettronica.v13/tree/master/FatturaEL.v13/bin/Release
 
 # Ringraziamenti
 Questo progetto nasce dal lavoro di Davide De Rubeis [C# - Come creare la Fattura Elettronica per la Pubblica Amministrazione (FatturaPA)](http://blogs.dotnethell.it/imaginsystems/C-Come-creare-la-Fattura-Elettronica-per-la-Pubblica-Amministrazione-FatturaPA__19559.aspx) basato sullo schema della versione 1.1.
