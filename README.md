@@ -1,12 +1,12 @@
 ![FatturaElettronica](https://etabetaweb.files.wordpress.com/2018/11/fattura-elettronica.jpg)
 
-# Fattura Elettronica
+# Fattura Elettronica versione 1.3
 Il progetto nasce dall’esigenza di creare una classe che permetta di rappresentare tutti i nodi previsti nel formato XML  (eXtensible Markup Language) della Fattura Elettronica basato sulla versione 1.3 delle specifiche tecniche dell’Agenzia delle Entrate. Sviluppato in Visual Basic .Net, utilizza il .Net Framework 4.6.
 
 
 
 # Guida per l'utilizzo
-E' disponibile la guida per l'implementazione della classe open source per la generazione della Fattura Elettronica. In esclusiva sullo store Amazon Kindle Book in formato digitale. La guida spiega come procedere all'implementazione della classe per la realizzazione di applicazioni contabili che prevedano l'emissione della fattura elettronica
+E' disponibile la guida per l'implementazione della classe open source per la generazione della Fattura Elettronica. In esclusiva sullo store Amazon Kindle Book in formato digitale. La guida spiega come procedere all'implementazione della classe per la realizzazione di applicazioni contabili che prevedano l'emissione della fattura elettronica.
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2018/11/copertina-guida-fatturael.jpg) 
 
@@ -120,13 +120,19 @@ L'assembly version è costituito di 4 parti ({Major Version}.{Minor Version}.{Bu
 - Allegato A - Specifiche tecniche (versione 1.3) in italiano: per correggere un refuso sull’elemento CausalePagamento che deve essere compilato con il codice corrispondente a quello utilizzato per la compilazione del modello CU, in particolare sono stati corretti i paragrafi 2.1.7, 2.2.9.1 e l’appendice 3;
 - Allegato A - Specifiche tecniche (versione 1.3) in inglese: per correggere un refuso sull’elemento CausalePagamento che deve essere compilato con il codice corrispondente a quello utilizzato per la compilazione del modello CU, in particolare sono stati corretti i paragrafi 2.1.7, 2.2.9.1 e l’appendice 3 (la descrizione tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”);
 - Rappresentazione tabellare del tracciato fattura ordinaria in italiano per correggere dei refusi:
-  o nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <IdPaese> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria o sull’elemento 2.1.1.5.4 <CausalePagamento> che, nella descrizione funzionale indica che i valori ammessi per la compilazione sono quelli utilizzati per la compilazione del modello CU, ove applicabili;
+  - nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <'IdPaese'> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria;
+  - sull’elemento 2.1.1.5.4 <'CausalePagamento'> che, nella descrizione funzionale indica che i valori ammessi per la compilazione sono quelli utilizzati per la compilazione del modello CU, ove applicabili;
 - Rappresentazione tabellare del tracciato fattura ordinaria in inglese, per correggere dei refusi:
-  o nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <IdPaese> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria o sull’elemento 2.1.1.5.4 <CausalePagamento> che, nella descrizione funzionale indica che i valori ammessi per la compilazione sono quelli utilizzati per la compilazione del modello CU, ove applicabili o la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”;
+  - nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <'IdPaese'> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria;
+  - sull’elemento 2.1.1.5.4 <'CausalePagamento'> che, nella descrizione funzionale indica che i valori ammessi per la compilazione sono quelli utilizzati per la compilazione del modello CU, ove applicabili;
+  - la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”;
 - Rappresentazione tabellare del tracciato fattura semplificata in italiano per correggere dei refusi:
-  o nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <IdPaese> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria o la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura” o è stato rimosso dalla lista dei “Regimi fiscali” il codice RF03 Nuove iniziative produttive(art.13, L. 388/00);
+  - nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <'IdPaese'> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria;
+  - la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”;
+  - è stato rimosso dalla lista dei “Regimi fiscali” il codice RF03 Nuove iniziative produttive(art.13, L. 388/00);
 - Rappresentazione tabellare del tracciato fattura semplificata in inglese per correggere dei refusi:
-  o nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <IdPaese> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria o la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”; 
+  - nella descrizione del controllo extra schema relativo alla valorizzazione dell'elemento informativo 1.1.1.1 <'IdPaese'> con "IT", in tal caso viene verificato che il Codice Fiscale sia censito in Anagrafe Tributaria;
+  - la descrizione del tipo Natura N5 è stata completata aggiungendo la dicitura “IVA non esposta in fattura”; 
 - Specifiche tecniche in italiano (versione 1.3) per inserire l’indirizzo PEC sdi01@pec.fatturapa.it a cui il soggetto trasmittente invia la fattura la prima volta;
 - Specifiche tecniche in inglese (versione 1.3) per correggere un refuso nel paragrafo “Document status” nel quale è indicato, relativamente all’introduzione del nuovo controllo, un numero di pagina sbagliato (139 anziché 137) e per inserire l’indirizzo PEC sdi01@pec.fatturapa.it a cui il soggetto trasmittente invia la fattura la prima volta;
-- Rappresentazione tabellare del tracciato fattura semplificata (versione 1.1 – xls) in italiano per correggere l’assenza il valore TD09 nota di debito semplificata dalla lista dei codici per indicare il <TipoDocumento>;
+- Rappresentazione tabellare del tracciato fattura semplificata (versione 1.1 – xls) in italiano per correggere l’assenza il valore TD09 nota di debito semplificata dalla lista dei codici per indicare il <'TipoDocumento'>;
