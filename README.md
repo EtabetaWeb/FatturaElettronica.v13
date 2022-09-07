@@ -1,9 +1,7 @@
 ![FatturaElettronica](https://etabetaweb.files.wordpress.com/2018/11/fattura-elettronica.jpg)
 
 # Fattura Elettronica versione 1.3
-Il progetto è stato **deprecato** a favore della libreria **[FatturaElettronica.XMLNodes](https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes)** (sviluppata in C# .NET Standard 2.0). 
-
-Il **codice open source** viene comunque mantenuto **on line con la finalità di studio e retrocompatibilità** con le applicazioni che ne fanno ancora uso.
+**Il progetto è stato deprecato a favore della libreria FatturaElettronica.XMLNodes (sviluppata in C# .NET Standard 2.0). Il codice open source viene comunque mantenuto on line con la finalità di studio.**
 
 Il progetto nasce dall'esigenza di creare una **libreria** che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica**. 
 
@@ -13,17 +11,17 @@ Basata sulla **versione 1.3** delle specifiche tecniche dell’**Agenzia delle E
 
 # Guida per l'utilizzo
 
-![img](https://etabetaweb.files.wordpress.com/2020/03/guida-fatturael.v13.jpg?w=640)
+![img](https://etabetaweb.files.wordpress.com/2022/09/cover-libro-fatturael-v13-ed-2.jpg?w=640)
 
-In **esclusiva** sullo store [**Amazon** ](https://www.amazon.it/)ed in formato digitale, è disponibile la guida all'utilizzo della **classe open source** per la generazione della **Fattura Elettronica**.
+In **esclusiva** sullo store [**Amazon**](https://amzn.to/3cVvhUn) ed in formato digitale, è disponibile la guida all'utilizzo della **libreria open source** per la generazione della **Fattura Elettronica**.
 
-**La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
+**Nella guida** sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
 
-Vi sono anche **informazioni utili e collegamenti al sito dell'Agenzia delle Entrate** che possono essere sfruttate da **utenti avanzati** che vogliano approfondire alcune tematiche relative alla Fatturazione Elettronica.
+Vi sono anche **informazioni utili** che possono essere sfruttate da utenti avanzati che vogliano approfondire alcune tematiche relative alla **Fatturazione Elettronica**.
 
 È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
 
-[[ACQUISTA ONLINE](https://amzn.to/2CrhEHe)]
+[[ACQUISTA ONLINE](https://amzn.to/3cVvhUn)]
 
 
 
@@ -64,11 +62,13 @@ Dal percorso "[/FatturaEL.v13/bin/Release/](https://github.com/EtabetaWeb/Fattur
 # Note al codice di esempio
 La soluzione comprende un esempio per utilizzare, tramite code-behind, i metodi e le proprietà della libreria.
 
-**Il codice dei esempio non è esaustivo, in quanto non utilizza tutti i metodi della classe, e vi rimando alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti**.
+**Il codice di esempio non è esaustivo, in quanto non utilizza tutti i metodi della classe. Si prega di fare riferimento alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti**.
 
 Il codice principale si trova nella funzione GeneraXML e i parametri sono passati direttamente da codice ma possono essere passati anche tramite campi TextBox con le opportune modifiche.
 
 La classe prevede due metodi principali "FatturaHeader" e "FatturaBoody". Questi sono i due nodi principali del file XML che racchiudono tutti i nodi figlio contenenti le informazioni previste dalla fattura elettronica.
+
+
 
 **Dal codice di esempio è possibile comprendere come**:
 
